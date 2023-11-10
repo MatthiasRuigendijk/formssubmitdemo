@@ -1,0 +1,408 @@
+/* Basisstijlen */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #6975e4;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0 0;
+    
+
+}
+
+.menu {
+    padding-bottom: 20px;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    margin: 0 15px;
+    transition: color 0.3s;
+    
+}
+
+.menu a:hover {
+    color: #22f3de;
+}
+
+h1 {
+    text-align: left;
+    padding-left: 20px;
+    color: #6975e4;
+}
+
+h2 {
+    text-align: left;
+    padding-left: 20px;
+    color: #7c84d0;
+    padding-right: 30px;
+}
+
+h3 {
+    text-align: left;
+    padding-left: 20px;
+    color: #22f3de;
+}
+
+p {
+    text-align: left;
+    padding-left: 20px;
+}
+
+/* Footerstijlen */
+footer {
+    background-color: #6975e4;;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Banner styles */
+.banner {
+    width: 100%;
+    max-width: 100%;
+    overflow: hidden;
+}
+
+.slider {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 350px; /* Set your desired height */
+}
+
+.slider img {
+   
+    max-width: 100%;
+}
+
+
+.home-image {
+    position: absolute;
+    top: 475px; /* Adjust the top position as needed */
+    left: 900px; /* Adjust the left position as needed */
+    z-index: 1; /* Ensures the image is above the content */
+}
+
+.home-image img {
+    max-width: 100%; /* Ensure the image doesn't overflow its container */
+}
+
+
+.mijnsite-image {
+    position: absolute;
+    top: 240px; /* Adjust the top position as needed */
+    left: 1000px; /* Adjust the left position as needed */
+    z-index: 1; /* Ensures the image is above the content */
+}
+
+.mijnsite-image img {
+    max-width: 70%; /* Ensure the image doesn't overflow its container */
+}
+
+.contact-container {
+    background-color: #fff;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+label {
+    font-weight: bold;
+}
+
+input,
+textarea {
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #6975e4;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #22f3de;
+}
+
+.contact-container,
+.socials-container {
+    display: inline-block; /* Make the containers inline-block elements */
+    width: calc(50% - 10px); /* Each container takes 50% width minus some spacing */
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-right: 20px; /* Spacing between containers */
+}
+.socials-container {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 20px;
+    width: 40%; /* Set a specific width, e.g., 40% */
+    float: right; /* Float it to the left */
+}
+
+.fa {
+    display: inline-block;
+    vertical-align: middle; /* Align the symbol vertically */
+    margin-right: 30px; /* Add some spacing between symbol and text */
+}
+
+p {
+    display: inline-block;
+    vertical-align: middle; /* Align the text vertically */
+}
+
+
+.page-link {
+    color: #6975e4; /* Standaardtekstkleur voor ankers onder aan de pagina */
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.page-link:hover {
+    color: #22f3de; /* De gewenste kleur wanneer je erover hovert */
+}
+
+.page-list li::marker {
+    color: #22f3de; /* The color you want for the bullet points */
+}
+
+
+/* FOTOS OP DE DETAILS PAGINAS */
+/* PAPER PROTOTYPE */
+.paperprototype1-image {
+    position: absolute;
+    top: 850px; 
+    left: 800px; 
+    z-index: 1; 
+}
+.paperprototype2-image {
+    position: absolute;
+    top: 850px; 
+    left: 1200px; 
+    z-index: 1; 
+}
+.paperprototype3-image {
+    position: absolute;
+    top: 1100px; 
+    left: 1000px; 
+    z-index: 1; 
+}
+.paperprototype4-image {
+    position: absolute;
+    top: 1350px; 
+    left: 850px;
+    z-index: 1; 
+}
+.paperprototype5-image {
+    position: absolute;
+    top: 1550px; 
+    left: 1200px; 
+    z-index: 1;
+}
+.paperprototype6-image {
+    position: absolute;
+    top: 1850px; 
+    left: 1200px; 
+    z-index: 1; 
+}
+.paperprototype7-image {
+    position: absolute;
+    top: 1700px; 
+    left: 800px; 
+    z-index: 1; 
+}
+.paperprototype8-image {
+    position: absolute;
+    top: 200px;
+    left: 850px; 
+    z-index: 1; 
+}
+.paperprototype9-image {
+    position: absolute;
+    top: 500px; 
+    left: 850px; 
+    z-index: 1;
+}
+/* WIREFRAMES*/
+.wireframe1-image {
+    position: absolute;
+    top: 240x; 
+    left: 900px; 
+    z-index: 1; 
+}
+.wireframe2-image {
+    position: absolute;
+    top: 700px; 
+    left: 850px;
+    z-index: 1; 
+}
+.wireframe3-image {
+    position: absolute;
+    top: 900px; 
+    left: 1150px; 
+    z-index: 1; 
+}
+.wireframe4-image {
+    position: absolute;
+    top: 1100px; 
+    left: 850px; 
+    z-index: 1; 
+}
+.wireframe5-image {
+    position: absolute;
+    top: 1300px; 
+    left: 1180px; 
+    z-index: 1; 
+}
+.wireframe6-image {
+    position: absolute;
+    top: 1300px; 
+    left: 820px; 
+    z-index: 1; 
+}
+.wireframe7-image {
+    position: absolute;
+    top: 1550px; 
+    left: 820px; 
+    z-index: 1; 
+}
+/* MOODBOARD*/
+.moodboard1-image {
+    position: absolute;
+    top: 180px; 
+    left: 940px; 
+    z-index: 1; 
+}
+.moodboard2-image {
+    position: absolute;
+    top: 760px;
+    left: 800px; 
+    z-index: 1; 
+}
+.moodboard3-image {
+    position: absolute;
+    top: 960px; 
+    left: 1100px; 
+    z-index: 1; 
+}
+.moodboard4-image {
+    position: absolute;
+    top: 1160px; 
+    left: 820px; 
+    z-index: 1; 
+}
+/* SITEMAP*/
+.sitemap1-image {
+    position: absolute;
+    top: 240x; 
+    left: 900px; 
+    z-index: 1; 
+}
+.sitemap2-image {
+    position: absolute;
+    top: 700px;
+    left: 800px; 
+    z-index: 1; 
+}
+/* TESTVERSLAG*/
+.testverslag1-image {
+    position: absolute;
+    top: 150px; 
+    left: 900px; 
+    z-index: 1; 
+}
+.testverslag2-image {
+    position: absolute;
+    top: 870px; 
+    left: 900px; 
+    z-index: 1; 
+}
+.testverslag3-image {
+    position: absolute;
+    top: 1200px; 
+    left: 900px; 
+    z-index: 1; 
+}
+.testverslag4-image {
+    position: absolute;
+    top: 1400px; 
+    left: 900px; 
+    z-index: 1; 
+}
+.testverslag5-image {
+    position: absolute;
+    top: 1700px; 
+    left: 900px; 
+    z-index: 1; 
+}
+.testverslag6-image {
+    position: absolute;
+    top: 1990px; 
+    left: 900px;
+    z-index: 1; 
+}
+/* INTERACTION DESIGN*/
+.interactiondesign1-image {
+    position: absolute;
+    top: 150px; 
+    left: 900px; 
+    z-index: 1; 
+}
+.interactiondesign2-image {
+    position: absolute;
+    top: 470px; 
+    left: 900px; 
+    z-index: 1;
+}
+/*FIGMA*/
+.figma1-image {
+    position: absolute;
+    top: 500px; 
+    left: 900px; 
+    z-index: 1; 
+}
+.figma2-image {
+    position: absolute;
+    top: 200px; 
+    left: 900px; 
+    z-index: 1; 
+}
+/* Text container zodat de tekst op de paginas aan de linker kant blijft*/
+.text-container {
+    max-width: 800px; 
+}
+

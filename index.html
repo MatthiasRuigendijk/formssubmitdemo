@@ -1,0 +1,77 @@
+<!DOCTYPE html> <!--Document Type-->
+<html lang="nl"> <!--De taal van je website-->
+
+<head>
+    <link rel="stylesheet" href="test.css"> <!--Om je css te koppelen-->
+    <meta charset="UTF-8"> <!--welke lettertypes je gebruikt (abc of chinees/arabisch)-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--Goede overloop naar verschillende devices-->
+    <title>HOME | Hoe maak je een website</title> <!--Title boven je site-->
+   <!--<link rel="icon" type="image/png" href="./images/icon.png"/> -->  <!--je icoon van je website bovenin-->
+   <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+
+</head>
+
+
+
+<body>
+    <header>
+        <div class="menu">
+            <a href="index.html">Home</a>
+            <a href="group.html">Mijn Site</a>
+            <a href="about.html">Over Mij</a>
+            <a href="contact.html">Contact Mij</a>
+        </div>
+
+    <section class="banner">
+        <div class="slider">
+            <div><img src="images/banner1.png" alt="Foto 1"></div>
+            <div><img src="images/banner8.jpg" alt="Foto 2"></div>
+            <div><img src="images/banner3.jpg" alt="Foto 3"></div>
+        </div>
+    </section>
+    
+
+
+</header>
+
+<main>
+    <h1>Wat je kunt vinden op deze website:</h1>
+    <p>Hoi! Ik ben Matthias Ruigendijk. Ik ben 18 jaar oud en zit op het CHE met de opleiding ICT. <br>Voor 1 van mijn vakken ben ik deze website gaan maken.
+    Deze website zal gaan over wie<br> ik ben en wat ik doe. Op deze website ga je ook het proces vinden van hoe ik deze website<br> heb gemaakt uit helemaal niets. Dit proces bevat het ontwerpen van de website op papier,<br> het coderen van de website en uiteindelijk het testen op gebruikersvriendelijkheid.</p>
+    <h2>Pagina's:</h2>
+
+    
+    <ul class="page-list">
+        <li><a class="page-link" href="index.html">Home</a> - Je bevind je nu op de home pagina. Hier staat een kleine inleiding van de website.</li>
+        <li><a class="page-link" href="group.html">Mijn Site</a> - Op deze pagina kun je het proces vinden van hoe ik deze website heb gemaakt.</li>
+        <li><a class="page-link" href="about.html">Over Mij</a> - De Over Mij pagina bevat vooral informatie over wie ik ben en wat ik leuk vind.</li>
+        <li><a class="page-link" href="contact.html">Contact Mij</a> - Je kunt doormiddel van de Contact Mij pagina mij bereiken met mail of andere socials.</li>
+    </ul>
+   
+    <div class="home-image">
+        <img src="images/home-image.png" alt="Your Image Description">
+    </div>
+    
+    <!-- Hier voeg je de inhoud van je website toe -->
+</main>
+
+<footer>
+    <h3 style="text-align: center;">&copy; 2023 Jouw Website Naam</h3>
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+<script>
+    $(document).ready(function(){
+        $('.slider').slick({
+            autoplay: true, // Auto-play the slider
+            dots: true,      // Show navigation dots
+        });
+    });
+</script>
+
+
+
+</body>
+</html>
